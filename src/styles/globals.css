@@ -7,3 +7,13 @@
     @apply bg-white dark:bg-dark duration-150;
   }
 }
+
+@layer components {
+  .container {
+    @apply max-w-[1140px] mx-auto px-4;
+  }
+}
+
+.btn-shadow {
+  box-shadow: 4px 4px #fff;
+}

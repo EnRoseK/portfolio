@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <ThemeProvider attribute="class">
       <div className={rubik.className}>
         <Sidebar />
-        <main>
+        <main className="absolute left-[250px] min-h-screen min-w-[calc(100vw_-_250px)]">
           <Component {...pageProps} />
         </main>
       </div>

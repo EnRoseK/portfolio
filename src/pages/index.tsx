@@ -1,7 +1,12 @@
+import HomeSection from "@/components/HomeSection";
 import { NextPage } from "next";
 
 const Home: NextPage = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HomeSection />
+    </>
+  );
 };
 
 export default Home;

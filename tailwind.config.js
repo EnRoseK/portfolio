@@ -16,6 +16,11 @@ module.exports = {
         "gray-light": "#f7f7ff",
         "gray-dark": "#555",
       },
+      boxShadow: {
+        btnShadowPrimary: "4px 4px 0 #2fbf71",
+        btnShadowLight: "4px 4px 0 #0b0b13",
+        btnShadowDark: "4px 4px 0 #fff",
+      },
     },
   },
   plugins: [],
